@@ -27,7 +27,10 @@
     </header>
     
     <div class="wrapper">
-        <div class="from-wrapper login">
+        <span class="close-btn">
+            <i class="fas fa-times"></i>
+        </span>
+        <div class="form-wrapper login">
             <h2>Login</h2>
             <form action="#">
                 <div class="input-box">
@@ -49,8 +52,46 @@
                     <a href="#">Forgot Password?</a>
                 </div>
                 <button>Login</button>
+                <div class="toggle">
+                    <p>Don't have an account? <a class="signup-link" href="#">Singup</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-wrapper signup">
+            <h2>Singup</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input type="text" id="text" required>
+                    <label for="text">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="options">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button>Signup</button>
+                <div class="toggle">
+                    <p>Already have an account? <a class="login-link" href="#">Login</a></p>
+                </div>
             </form>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
