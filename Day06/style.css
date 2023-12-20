@@ -1,0 +1,138 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* NavBar */
+.Sale-Bar {
+    background: linear-gradient(90deg,#658C4A,#89BC68);
+    padding: 16px 120px;
+    text-align: center;
+}
+
+.Sale-Bar > h6 > p {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.nav {
+    padding: 0 130px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 130px;
+}
+
+.search {
+    width: 880px;
+    padding: 15px 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo {
+    height: 48px;
+}
+
+.nav-btn {
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu-bar {
+    padding: 16px 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu-bar > h3 {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-hr {
+    height: 2px;
+    background-color: #658C4A;
+    border: none;
+}
+
+/* HERO SECTION */
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* padding: 0 0 0 180px; */
+}
+
+.left-hero-section {
+    width: 720px;
+    padding: 80px 40px 80px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.left-hero-section > h1 {
+    font-size: 56px;
+    font-family: 'Libre Baskerville', serif;
+    color: #333;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left-hero-section > p {
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.main-section-btn {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #658C4A;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.right-hero-section > img {
+    height: 480px;
+}
+
