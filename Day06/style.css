@@ -255,3 +255,103 @@ main {
     line-height: 24px;
     text-decoration: line-through;
 }
+
+/* NEW ARRIVAL */
+.new-arrival {
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.new-arrival-heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-btns {
+    display: flex;
+    gap: 16px;
+}
+
+.navigation-btn1 {
+    border-radius: 50%;
+    background: #E6E6E6;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.navigation-btn2 {
+    border-radius: 50%;
+    background: #E7CEC0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.new-arrival-heading>h1 {
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new-arrival-heading>p {
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.new-arrival-products-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.new-arrival-products>h2 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.new-arrival-products>p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #658C4A;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.new-arrival-mainbtn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    background: #658C4A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+.new-arrival-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
